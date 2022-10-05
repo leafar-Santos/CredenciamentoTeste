@@ -1,0 +1,4 @@
+br/com/pedepronto/credenciamento/pages/CadastroConsultorPage.class
+br/com/pedepronto/credenciamento/consultor/CadastroConsultorTest.class
+br/com/pedepronto/credenciamento/dsl/DSL.class
+br/com/pedepronto/credenciamento/util/DriverFactory.class

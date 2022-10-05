@@ -19,10 +19,10 @@ public class DriverFactory {
 
 			
 			System.setProperty("webdriver.chrome.driver",
-					"../br.com.pedepronto.credenciamento/src/test/resources/drivers/chromedriver/chromedriver");
+					"/home/tribo/eclipse-workspace/br.com.pedepronto.credenciamento/src/test/resources/drivers/chromedriver/chromedriver");
 			
 			ChromeOptions options = new ChromeOptions();
-			options.setHeadless(true);
+			options.setHeadless(false);
 			driver = new ChromeDriver(options);
 			
 			driver.get("https://credenciamento.staging.pedepronto.com.br/cadastro-comercial-de-estabelecimento");
