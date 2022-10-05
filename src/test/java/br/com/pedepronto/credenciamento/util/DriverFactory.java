@@ -22,7 +22,7 @@ public class DriverFactory {
 					"/home/tribo/eclipse-workspace/br.com.pedepronto.credenciamento/src/test/resources/drivers/chromedriver/chromedriver");
 			
 			ChromeOptions options = new ChromeOptions();
-			options.setHeadless(false);
+			options.setHeadless(true);
 			driver = new ChromeDriver(options);
 			
 			driver.get("https://credenciamento.staging.pedepronto.com.br/cadastro-comercial-de-estabelecimento");
